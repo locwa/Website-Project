@@ -1,4 +1,4 @@
-# Website-Project
+# Website Project
 
 A sample website design about a satellite internet service provider.
 
