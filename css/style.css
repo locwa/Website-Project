@@ -28,3 +28,17 @@ nav ul{
     flex-shrink: 0;
     font-family: 'Encode Sans';
 }
+.hero{
+    display: flex;
+    justify-content: flex-start;
+}
+.initial-offer h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-graphics{
+    
+}
