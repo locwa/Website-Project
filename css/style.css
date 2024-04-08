@@ -1,0 +1,30 @@
+html{
+    background-color: #06061a;
+    color: white;
+}
+
+nav{
+    display: flex;
+    padding: 0.875rem 1.75rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav h1{
+    font-family: 'nevis', sans-serif;
+    letter-spacing: 0.098rem;
+    font-size: 2.3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 598.918px;   
+    height: 19px;
+    padding: 0px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    font-family: 'Encode Sans';
+}
