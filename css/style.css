@@ -1,11 +1,18 @@
 html{
     background-color: #06061a;
     color: white;
+    font-family: 'Encode Sans';
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 nav{
     display: flex;
     padding: 0.875rem 1.75rem;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     
@@ -26,19 +33,67 @@ nav ul{
     align-items: center;
     gap: 50px;
     flex-shrink: 0;
-    font-family: 'Encode Sans';
 }
 .hero{
     display: flex;
     justify-content: flex-start;
+    column-gap: 600px;
+    margin: 35px 0 75px;
 }
-.initial-offer h1{
+.offer h1{
     font-family: "Roboto", sans-serif;
-    font-size: 72px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
 }
+.slogan {
+    margin-left: 40px;
+}
+
 .hero-graphics{
-    
+    margin-top: 150px
 }
+
+.button1{
+    height: 50px;
+    width: 160px;
+    border-radius: 50px;
+    font-family: 'Encode Sans';
+    font-weight: 900;
+    font-size: 15px;
+    background-color: #D9d9d9;
+    color: #040529;
+    border: #d9d9d9;
+    margin-top: 15px;
+}
+.button1:hover{
+    background-color: #1b1e73;
+    color: #D9d9d9;
+}
+
+.feature1{
+    background-color: #0D2954;
+    height: 650px;
+    text-align: center;
+    padding: 50px;
+}   
+
+.feature1 p{
+    font-size: 20px;
+    padding: 25px 120px;
+}
+
+.feature2{
+    background-color: #000;;
+    height: 325px;
+    text-align: center;
+    padding: 50px;
+}   
+
+.feature2 p{
+    font-size: 20px;
+    padding: 10px 120px;
+}
+
