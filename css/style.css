@@ -17,7 +17,7 @@ nav{
     align-items: center;
     
 }
-nav h1{
+.logo{
     font-family: 'nevis', sans-serif;
     letter-spacing: 0.098rem;
     font-size: 2.3rem;
@@ -38,7 +38,7 @@ nav ul{
     display: flex;
     justify-content: flex-start;
     column-gap: 600px;
-    margin: 35px 0 75px;
+    margin: 55px 0 95px;
 }
 .offer h1{
     font-family: "Roboto", sans-serif;
@@ -97,3 +97,61 @@ nav ul{
     padding: 10px 120px;
 }
 
+.reviews{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #2b2fa5;
+    text-align: center;
+    padding: 50px;
+}
+
+.testimonials{
+    height: 325px;
+    overflow: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.testimony{
+    background-color: antiquewhite;
+    min-width: 300px;
+    border-radius: 50px;
+}
+
+footer{
+    margin: 0;
+    height: 315px;
+    background-color: #000;
+    display: flex;
+}
+
+.logo-and-address{
+    padding: 30px;
+    max-width: 225px;
+}
+
+.logo{
+    padding: 50px 15px;
+}
+
+a, a:visited{
+    text-decoration-line: none;
+    color: white;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.792);
+}
+
+.interactive-logo:hover, .interactive-logo:visited{
+    color: white;
+}
+
+.footer-nav ul{
+    list-style-type: none;
+    padding: 50px;
+}
+
+.footer-nav li{
+    padding: 5px;
+}
