@@ -7,9 +7,18 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/assets/png/pexels-photo-18711720.jpeg);
-    background-size: 1600px;
-    background-position-y: center;
+    
+}
+
+.about-us h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    margin: 0 0 70px 0;
+}
+
+.about-us{
+    padding: 150px 65px;
 }
 
 nav{
@@ -43,6 +52,9 @@ nav ul{
     justify-content: flex-start;
     column-gap: 600px;
     height: 90%;
+    background-image: url(/assets/png/pexels-photo-18711720.jpeg);
+    background-size: 1600px;
+    background-position-y: center;
 }
 .offer h1{
     font-family: "Roboto", sans-serif;
@@ -125,6 +137,9 @@ footer{
     margin: 0;
     height: 315px;
     background-color: #000;
+}
+
+.footer-info {
     display: flex;
 }
 
@@ -157,4 +172,23 @@ a:hover{
 
 .footer-nav li{
     padding: 5px;
+}
+
+.logo-footer{
+    padding: 0;
+    font-family: 'nevis', sans-serif;
+    letter-spacing: 0.098rem;
+    font-size: 2.3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.copyright{
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.about-us{
+    height: 700px;
 }
