@@ -10,15 +10,28 @@ body{
     
 }
 
-.about-us h1 {
+.textblock h1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 65px;
-    margin: 0 0 70px 0;
+    margin: 0 0 35px 0;
 }
 
-.about-us{
+.textblock{
     padding: 150px 65px;
+}
+
+.textblock .date{
+    text-align: center;
+    margin: 10px 0 50px;
+}
+
+.letters{
+    list-style-type: lower-latin;
+}
+
+.stipulations {
+    margin: 40px 0;
 }
 
 nav{
