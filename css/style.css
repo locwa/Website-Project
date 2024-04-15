@@ -26,6 +26,27 @@ body{
     margin: 10px 0 50px;
 }
 
+.commitment{
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+.about-landing{
+    padding: 0 75px;
+    font-size: 25px;
+}
+
+.titlehead{
+    /* NASA photos are free to use according to https://www.nasa.gov/nasa-brand-center/images-and-media/ */ 
+    background-image: url(https://images-assets.nasa.gov/image/iss043e000030/iss043e000030~orig.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 400px;
+    text-align: center;
+}
+
 .letters{
     list-style-type: lower-latin;
 }
@@ -65,7 +86,10 @@ nav ul{
     justify-content: flex-start;
     column-gap: 600px;
     height: 90%;
+    /* License on Pexels photos here https://www.pexels.com/license/ */
     background-image: url(/assets/png/pexels-photo-18711720.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position-y: center;
 }
 .offer h1{
@@ -203,4 +227,14 @@ a:hover{
 
 .about-us{
     height: 700px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+}
+.titlehead h1{
+    padding: 150px;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
