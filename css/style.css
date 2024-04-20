@@ -20,21 +20,21 @@ a:hover{
     color: rgba(255, 255, 255, 0.792);
 }
 .big{
-    font-size: 65px;
+    font-size: 4.063rem;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
 }
 .button1{
-    height: 50px;
-    width: 160px;
-    border-radius: 50px;
+    height: 3.125rem;
+    width: 10px;
+    border-radius: 3.125rem;
     font-family: 'Encode Sans';
     font-weight: 900;
-    font-size: 15px;
+    font-size: 0.938rem;
     background-color: #D9d9d9;
     color: #040529;
     border: #d9d9d9;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 .button1:hover{
     background-color: #1b1e73;
@@ -42,18 +42,18 @@ a:hover{
     cursor: pointer;
 }
 .small{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .textblock{
-    padding: 150px 65px;
+    padding: 9.375rem 4.063rem;
 }
 .textblock h1 {
     text-align: center;
-    margin: 0 0 35px 0;
+    margin: 0 0 2.188rem 0;
 }
 .very-small{
     font-weight: 100;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 /* navbar */
@@ -67,7 +67,7 @@ a:hover{
 nav{
     display: flex;
     padding: 0.875rem 1.75rem;
-    height: 60px;
+    height: 3.75rem;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -76,12 +76,12 @@ nav{
 nav ul{
     list-style-type: none;
     display: flex;
-    width: 598.918px;   
-    height: 19px;
-    padding: 0px 30px;
+    width: 37.432rem;   
+    height: 1.188rem;
+    padding: 0 1.875rem;
     justify-content: flex-end;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
     flex-shrink: 0;
 }
 
@@ -89,29 +89,29 @@ nav ul{
 
 footer{
     margin: 0;
-    height: 315px;
+    height: 19.688rem;
     background-color: #000;
 }
 .footer-info {
     display: flex;
 }
 .logo-and-address{
-    padding: 30px;
-    max-width: 225px;
+    padding: 1.875rem;
+    max-width: 14.063rem;
 }
 .logo-footer{
     padding: 0;
     font-family: 'nevis', sans-serif;
     letter-spacing: 0.098rem;
     font-size: 2.3rem;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 .footer-nav li{
-    padding: 5px;
+    padding: 0.313rem;
 }
 .footer-nav ul{
     list-style-type: none;
-    padding: 50px;
+    padding: 3.125rem;
 }
 .copyright{
     text-align: center;
@@ -122,7 +122,7 @@ footer{
 .hero{
     display: flex;
     justify-content: flex-start;
-    column-gap: 600px;
+    column-gap: 37.5rem;
     height: 90%;
     /* Original photo here: https://www.pexels.com/photo/snowy-trees-by-green-house-in-finland-18711720/. License on Pexels photos here https://www.pexels.com/license/ */
     background-image: url(/assets/png/house.jpeg);
@@ -131,42 +131,49 @@ footer{
     background-position-y: center;
 }
 .slogan {
-    margin-left: 40px;
-    max-width: 470px;
-    height: 400px;
-    padding: 125px 0;
+    margin-left: 2.5rem;
+    max-width: 29.375rem;
+    height: 25rem;
+    padding: 7.813rem 0;
     text-align: left;
 }
 .feature1{
     background-color: #06061a;
-    height: 650px;
+    height: 40.625rem;
     text-align: center;
-    padding: 50px;
+    padding: 3.125rem;
 } 
 .feature2{
     background-color: #000;;
-    height: 325px;
-    padding: 50px;
+    height: 20.313rem;
+    padding: 3.125rem;
     text-align: center;
 }   
 
 .reviews{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
     background-color: #0D2954;
     text-align: center;
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 .testimonials{
-    height: 325px;
+    height: 20.313rem;
     overflow: auto;
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     background-color: white;
-    max-width: 7    00px;
+    max-width: 700px;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 3.125rem;
+}
+#profile-picture{
+    margin: auto;
+    height: 18.75rem;
+    width: 18.75rem;
+    object-fit: cover;
+    display: flex
 }
 
 /* Layout selectors for aboutus.html */
@@ -177,7 +184,7 @@ footer{
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: top;
-    height: 400px;
+    height: 25rem;
     text-align: center;
 }
 
@@ -185,10 +192,10 @@ footer{
 
 .textblock .date{
     text-align: center;
-    margin: 10px 0 50px;
+    margin: 0.625rem 0 3.125rem;
 }
 .stipulations {
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 .letters{
     list-style-type: lower-latin;
