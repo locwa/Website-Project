@@ -58,6 +58,9 @@ a:hover{
     color: #b1b1b1;
     text-decoration: underline;
 }
+.legal-block{
+    padding: 0.5rem 5rem 3rem;
+}
 .text-center{
     text-align: center;
 }
@@ -66,7 +69,7 @@ a:hover{
     justify-content: left;
 }
 .textblock{
-    padding: 9.375rem 4.063rem;
+    padding: 2rem 4.063rem 9.375rem;
 }
 .textblock h1 {
     text-align: center;
@@ -286,9 +289,6 @@ footer{
     background-image: url(/assets/png/satellite.jpg);
     background-position: 50% 45%;
 }
-.history{
-    padding: 3rem 5rem;
-}
 
 /* Layout selectors for contactus.html */
 .contact-bg{
@@ -330,9 +330,17 @@ textarea{
 }
 /* Layout Selectors for privacypolicy.html */
 
-.textblock .date{
-    text-align: center;
-    margin: 0.625rem 0 3.125rem;
+.privacy-bg{
+    background-color: #22269d;
+    padding: 5rem;
+    max-height: 20rem;
+}
+.privacy-bg h1{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.privacy{
+
 }
 .stipulations {
     margin: 2.5rem 0;
