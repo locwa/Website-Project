@@ -348,3 +348,9 @@ textarea{
 .letters{
     list-style-type: lower-latin;
 }
+
+/* Layout Selectors for slaverystatment.html */
+
+.slavery-bg{
+    background-color: #2c1371;
+}
