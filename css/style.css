@@ -18,6 +18,9 @@ a, a:visited{
 a:hover{
     color: rgba(255, 255, 255, 0.792);
 }
+.button1 .black{
+    color: #000;
+}
 .button1{
     height: 3.125rem;
     width: 10rem;
@@ -128,7 +131,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 97%;
+    width: 100%;
     background-color: rgba(3, 2, 10, 0);
 }
 .logo{
@@ -142,7 +145,7 @@ nav ul{
     display: flex;
     width: 37.432rem;   
     height: 1.188rem;
-    padding: 0 1.875rem;
+    padding: 0 4rem;
     justify-content: flex-end;
     align-items: center;
     gap: 3.125rem;
@@ -339,9 +342,6 @@ textarea{
     padding-top: 7rem;
     padding-bottom: 2rem;
 }
-.privacy{
-
-}
 .stipulations {
     margin: 2.5rem 0;
 }
@@ -349,6 +349,52 @@ textarea{
     list-style-type: lower-latin;
 }
 
+/* Layout selectors for products.html */
+
+.product-bg{
+    padding: 5rem;
+    max-height: 20rem;
+     /* Original photo here: https://www.pexels.com/photo/body-of-water-near-city-buildings-421927/. Pexels photos are free to use according to https://www.pexels.com/license/ */
+    background-image: url(/assets/png/skyline.jpg);
+    background-position: 50% 40%;
+}
+.product-bg h1{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.product-type-selectors{
+    padding: auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#personal-offer{
+    padding: 2rem 0 7rem;
+    display: none;
+}
+.plans{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.offers{
+    padding: 2rem;
+    min-height: 23rem;
+    min-width: 16rem;
+    background-color: rgb(50, 35, 110);
+}
+.offers .medium{
+    padding-bottom: 2rem;
+}
+#business-offer{
+    padding: 5rem 0 7rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 /* Layout Selectors for slaverystatment.html */
 
 .slavery-bg{

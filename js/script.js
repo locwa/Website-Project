@@ -3,7 +3,6 @@ let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     nav.style.backgroundColor = 'rgba(3, 2, 10, '+ (scrollPosition / 70) + ')';
-    console.log(scrollPosition)
    });
 
 // Reviews
@@ -67,7 +66,7 @@ const reviews = [
     {
         "name": "Alexander W.",
         "stars": 5,
-        "comment": "Since switching to XYZ ISP, I've noticed a significant improvement in my online gaming experience. Their low latency and high-speed connections have eliminated lag and buffering, allowing me to compete at the highest level without interruptions.",
+        "comment": "Since switching to InterDish, I've noticed a significant improvement in my online gaming experience. Their low latency and high-speed connections have eliminated lag and buffering, allowing me to compete at the highest level without interruptions.",
         "photo": "./assets/png/prof9.jpg",
         "_locwa comment": "Original photo here: https://www.pexels.com/photo/mirror-reflecting-tender-hand-with-pink-rose-5235081/. License on Pexels photos here https://www.pexels.com/license/ "
     }
@@ -80,27 +79,39 @@ let reviewerName = document.getElementById('reviewer-name');
 let rating = document.getElementById('stars');
 let comment = document.getElementById('comment');
 
-leftButton.onclick = backComment;
-rightButton.onclick = forwardComment;
 reviewUpdate(reviews[0])
 
 function forwardComment() {
-    if (commentIndex < 9) {
-        commentIndex += 1;
+    commentIndex += 1;
+    if (commentIndex === 9){
+        commentIndex = 0;
     }
     reviewUpdate(reviews[commentIndex]);
-    console.log(commentIndex);
 }
 function backComment() {
-    if (commentIndex > 0) {
-        commentIndex -= 1;
+    commentIndex -= 1;
+    if (commentIndex < 0){
+        commentIndex = 8
     }
     reviewUpdate(reviews[commentIndex]);
-    console.log(commentIndex);
 }
 function reviewUpdate(reviews) {
     profilePicture.src = reviews.photo;
     reviewerName.innerText = reviews.name;
     rating.innerText = reviews.stars;
     comment.innerText = reviews.comment;
+}
+
+// Products
+const personalPlansButton = document.getElementById('personal-button');
+let businessPlansButton = document.getElementById('business-button');
+
+function showPersonalPlans () {
+    document.getElementById('personal-offer').style.display = 'block';
+    document.getElementById('business-offer').style.display = 'none';
+}
+
+function showBusinessOffer () {
+    document.getElementById('personal-offer').style.display = 'none';
+    document.getElementById('business-offer').style.display = 'flex';   
 }
