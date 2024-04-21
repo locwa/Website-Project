@@ -67,6 +67,12 @@ a:hover{
     text-align: center;
     margin: 0 0 2.188rem 0;
 }
+.titlehead{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 30rem;
+}
 /* Font sizes */
 .very-big{
     /* h1 */
@@ -231,13 +237,9 @@ footer{
 
 /* Layout selectors for aboutus.html */
 
-.titlehead{
+.about-bg{
     /* Original photo here: https://images-assets.nasa.gov/image/iss043e000030/iss043e000030~orig.jpg. NASA photos are free to use according to https://www.nasa.gov/nasa-brand-center/images-and-media/ */ 
     background-image: url(/assets/png/earth.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-y: top;
-    height: 30rem;
 }
 .about-slogan{
     margin: 2rem 0;
@@ -270,6 +272,17 @@ footer{
     padding: 2rem;
     border-radius: 1rem;
 }
+
+/* Layout seletors for companyhistory.html */
+
+.history-bg{
+    background-image: url(/assets/png/satellite.jpg);
+    background-position: 50% 45%;
+}
+.history{
+    padding: 3rem 5rem;
+}
+
 /* Layout Selectors for privacypolicy.html */
 
 .textblock .date{
