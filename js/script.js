@@ -1,9 +1,17 @@
-// navbar color change
+// navbar color change and progress bar
 let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     nav.style.backgroundColor = 'rgba(3, 2, 10, '+ (scrollPosition / 70) + ')';
-   });
+    if (scrollPosition >= 340){
+        moveCompetitorProgress();
+    }
+    if(scrollPosition >= 470){
+        moveInterdishProgress();
+    }
+    console.log(scrollPosition)
+
+    });
 
 // Reviews
 const reviews = [
@@ -114,4 +122,41 @@ function showPersonalPlans () {
 function showBusinessOffer () {
     document.getElementById('personal-offer').style.display = 'none';
     document.getElementById('business-offer').style.display = 'flex';   
+}
+
+// Progress Bar Functions
+let i = 0;
+function moveCompetitorProgress() {
+    if (i == 0){
+        i = 1;
+        let competitorBar = document.getElementById('competitor-bar');
+        let width = 1;
+        let prog = setInterval(competitorFrame, 10);
+        function competitorFrame() {
+            if (width >= 40) {
+                clearInterval(prog);
+            } else {
+                width++;
+                competitorBar.style.width = width + 'rem';
+            }
+        }
+    }
+}
+
+let j = 0
+function moveInterdishProgress() {
+    if (j == 0){
+        j = 1;
+        let interdishBar = document.getElementById('interdish-bar');
+        let width = 1;
+        let prog = setInterval(interdishFrame, 10);
+        function interdishFrame() {
+            if (width >= 50) {
+                clearInterval(prog);
+            } else {
+                width++;
+                interdishBar.style.width = width + 'rem';
+            }
+        }
+    }
 }

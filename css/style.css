@@ -210,6 +210,40 @@ footer{
     height: 40.625rem;
     padding: 3.125rem;
 } 
+.competitor-speed{
+    padding: 6rem;
+    padding-left: 14rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+#competitor-bar{
+    background-color: white;
+    width: 0;
+    height: 1rem;
+    border-radius: 3rem;
+    font-size: 1px;
+}
+.interdish-speed{
+    padding: 6rem;
+    padding-left: 14rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    gap: 2.76rem;
+    align-items: center;
+}
+.logo2{
+    margin: 0;
+}
+#interdish-bar{
+    background-color: white;
+    width: 0;
+    height: 1rem;
+    border-radius: 3rem;
+    font-size: 1px;
+}
 .feature2{
     background-color: #000;;
     height: 20.313rem;
