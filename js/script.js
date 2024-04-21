@@ -2,7 +2,7 @@
 let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
-    nav.style.backgroundColor = 'rgba(0, 0, 0, '+ (scrollPosition / 70) + ')';
+    nav.style.backgroundColor = 'rgba(3, 2, 10, '+ (scrollPosition / 70) + ')';
     console.log(scrollPosition)
    });
 

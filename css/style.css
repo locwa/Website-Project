@@ -114,7 +114,7 @@ a:hover{
     align-items: center;
     position: fixed;
     width: 97%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(3, 2, 10, 0);
 }
 .logo{
     font-family: 'nevis', sans-serif;
@@ -245,9 +245,10 @@ footer{
 .about-landing{
     display: flex;
     margin: 4rem 3rem;
+    align-items: center;
 }
 .initial-promise{
-    flex-basis: 30rem;
+    flex-basis: 50rem;
 }
 .title{
     padding: 15rem 0;
@@ -257,7 +258,18 @@ footer{
 .promise-slogan{
     width: 90%;
 }
-
+.services{
+    padding-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.offerings{
+    max-width: 20rem;
+    margin: 2rem;
+    background-color: #181b3f;
+    padding: 2rem;
+    border-radius: 1rem;
+}
 /* Layout Selectors for privacypolicy.html */
 
 .textblock .date{
