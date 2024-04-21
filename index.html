@@ -24,27 +24,32 @@
     <main>
         <div class="hero">
             <div class="slogan">
-                <h1 class="big">Get Connected. Wherever you are.</h1>
+                <h1 class="very-big">Get Connected. Wherever you are.</h1>
                 <p class="small">InterDish provides high-speed satellite internet that could connect anywhere in the world <sup>1</sup></p>
                 <button class="button1" id="heroButton">Learn More</button>
             </div>
         </div>
         <div class="feature1">
-            <h1 class="big">Get High-Speed Connections Anywhere</h1>
+            <h1 class="very-big">Get High-Speed Connections Anywhere</h1>
             <p class="small">With its state-of-the-art satellite technology that has been honed for more than a decade, IntelliDish can provide high-speed internet access that is equal with fiber-optic connections anywhere<sup>2</sup>, as long as you can supply power to the dish.</p>
         </div>
         <div class="feature2">
-            <h1 class="big">Interdish for Businesses and Power Users</h1>
+            <h1 class="very-big">Interdish for Businesses and Power Users</h1>
             <p class="small">Reliable high-speed internet designed to keep businesses connected.</p>
             <button class="button1">Learn More</button>
         </div>
         <div class="reviews">
-            <h1 class="big">What our clients think about us:</h1>
+            <h1 class="very-big">What our clients think about us:</h1>
             <div class="testimonials">
-                <img src="./assets/png/prof1.jpg" alt="Commenter's Profile picture" id="profile-picture">
-                <h4 id="name">test</h4>
-                <h6 id="rating">4.5</h6>
-                <p id="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, velit! Ab voluptas quia cupiditate quidem iusto saepe repellat quis inventore, perspiciatis eaque corporis optio in? Necessitatibus magni officiis maiores voluptatum!</p>        
+                <button class="button2" id="leftButton">&lt</button>
+                <div class="testimonials-box">
+                    <img src="./assets/png/prof1.jpg" alt="Commenter's Profile picture" id="profile-picture">
+                    <h4 class="medium" id="reviewer-name"></h4>
+                    <h6 class="medium-small"><span id="stars"></span> / 5</h6>
+                    <p class="small-medium" id="comment"></p>        
+                </div>
+                <button class="button2" id="rightButton">&gt</button>
+            </div>
         </div>
     </main>
     <footer>
@@ -71,5 +76,6 @@
         </div>
         <p class="very-small copyright">Copyright © 2024 InterDish, Inc. A subsidiary of InterSpace Communications, LLC</p>
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>

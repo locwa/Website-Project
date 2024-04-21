@@ -19,14 +19,9 @@ a, a:visited{
 a:hover{
     color: rgba(255, 255, 255, 0.792);
 }
-.big{
-    font-size: 4.063rem;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-}
 .button1{
     height: 3.125rem;
-    width: 10px;
+    width: 10rem;
     border-radius: 3.125rem;
     font-family: 'Encode Sans';
     font-weight: 900;
@@ -41,8 +36,22 @@ a:hover{
     color: #D9d9d9;
     cursor: pointer;
 }
-.small{
-    font-size: 1.25rem;
+.button2{
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+    border-radius: 3.125rem;
+    font-family: 'Encode Sans';
+    font-weight: 900;
+    font-size: 1.5rem;
+    background-color: #D9d9d9;
+    color: #040529;
+    border: #d9d9d9;
+}
+.button2:hover{
+    background-color: #1b1e73;
+    color: #D9d9d9;
+    cursor: pointer;
 }
 .textblock{
     padding: 9.375rem 4.063rem;
@@ -50,6 +59,31 @@ a:hover{
 .textblock h1 {
     text-align: center;
     margin: 0 0 2.188rem 0;
+}
+/* Font sizes */
+.very-big{
+    /* h1 */
+    font-size: 4.063rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+.medium{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+.medium-small{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+.small{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.small-medium{
+    font-size: 0.9rem;
+    margin: 1rem;
 }
 .very-small{
     font-weight: 100;
@@ -89,6 +123,7 @@ nav ul{
 
 footer{
     margin: 0;
+    padding-bottom: 0.2rem;
     height: 19.688rem;
     background-color: #000;
 }
@@ -115,6 +150,7 @@ footer{
 }
 .copyright{
     text-align: center;
+    margin: 0;
 }
 
 /* Layout Selectors for index.html*/
@@ -157,23 +193,28 @@ footer{
     text-align: center;
     padding: 3.125rem;
 }
-
 .testimonials{
+    display: flex;
+    margin: auto;
+}
+.testimonials-box{
     height: 20.313rem;
     overflow: auto;
     display: flex;
     gap: 0.625rem;
     background-color: white;
     max-width: 700px;
-    margin: auto;
     border-radius: 3.125rem;
+    color:#000;
+    flex-direction: column;
 }
 #profile-picture{
-    margin: auto;
-    height: 18.75rem;
-    width: 18.75rem;
+    margin: 1rem auto 0.5rem;
+    height: 7rem;
+    width: 7rem;
     object-fit: cover;
-    display: flex
+    display: flex;
+    border-radius: 8rem;
 }
 
 /* Layout selectors for aboutus.html */
