@@ -225,7 +225,7 @@ footer{
     margin: auto;
 }
 .testimonials-box{
-    height: 20.313rem;
+    height: 24.313rem;
     overflow: auto;
     display: flex;
     gap: 0.625rem;
@@ -245,6 +245,9 @@ footer{
     object-fit: cover;
     display: flex;
     border-radius: 8rem;
+}
+.footnotes{
+    padding: 1rem;
 }
 
 /* Layout selectors for aboutus.html */
