@@ -51,14 +51,19 @@ a:hover{
     color: #D9d9d9;
     cursor: pointer;
 }
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+.highlight{
+    color: #b1b1b1;
+    text-decoration: underline;
+}
 .text-center{
     text-align: center;
 }
 .text-left{
     text-align: left;
-}
-.roboto{
-    font-family: "Roboto", sans-serif;
+    justify-content: left;
 }
 .textblock{
     padding: 9.375rem 4.063rem;
@@ -86,6 +91,7 @@ a:hover{
 .medium-big{
     /* h3 */
     font-size: 2.3rem;
+    margin: 0;
 }
 .medium{
     /* <h4> */
@@ -284,6 +290,44 @@ footer{
     padding: 3rem 5rem;
 }
 
+/* Layout selectors for contactus.html */
+.contact-bg{
+    max-height: 27rem;
+}
+.contact-bg h3{
+    padding: 1rem 6rem 1rem;
+}
+.contact-bg h1{
+    padding: 10rem 6rem 1rem;
+}
+.contact-landing{
+    background-color: #0e0e48;
+    margin: 0;
+}
+.info-form{
+    padding: 5rem 5rem;
+}
+.agreement{
+    display: flex;
+    max-width: 27rem;
+}
+input[type=text]{
+    min-width: 27rem;
+    height: 1.5rem;
+    margin-top: 0.4rem;
+}
+input[type=checkbox]{
+    margin-right: 0.5rem;
+}
+select{
+    font-family: 'Encode Sans';
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+textarea{
+    resize: none;
+    font-family: 'Encode Sans';
+}
 /* Layout Selectors for privacypolicy.html */
 
 .textblock .date{

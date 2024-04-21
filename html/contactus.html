@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InterDish</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Encode Sans' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/nevis" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -22,7 +22,54 @@
         </nav>
     </header>
     <main>
-        
+        <div class="titlehead contact-bg">
+            <h1 class="title very-big roboto text-left">Contact InterDish</h1>
+            <h3 class="title medium-big roboto text-left">Have a question? We're ready to answer it.</h3>
+        </div>
+        <div class="contact-landing">
+            <div class="info-form">
+                <h2 class="medium-big text-left roboto">Tell us how we can help</h2>
+                <p class="small-medium">Please use this form to contact us at InterDish, LLC.</p><br>
+                <p class="very-small">* indicates a required field</p>
+                <form>
+                    <label for="fname">First Name *</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="John" required><br><br>
+                    <label for="lname">Last Name *</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Smith" required><br><br>
+                    <label for="email">Email *</label><br>
+                    <input type="text" name="email" id="email" placeholder="johnsmith@email.com" required><br><br>
+                    <label for="email-type">Email Type *</label><br>
+                    <select title="email-type" name="email-type" id="emailType" required>
+                        <option value="" selected disabled>Select...</option>
+                        <option value="business">Business Email</option>
+                        <option value="personal">Personal Email</option>
+                    </select><br><br>
+                    <label for="company">Company Name</label><br>
+                    <input type="text" name="company" id="company" placeholder="Company Name"><br><br>
+                    <label for="phone">Phone Number *</label><br>
+                    <input type="text" name="phone" id="phone" placeholder="555-777-9999"required><br><br>
+                    <label for="phone-type">Phone Number Type</label><br>
+                    <select name="phone-type" id="phone-type" required>
+                        <option value="" selected disabled>Select...</option>
+                        <option value="business">Business</option>
+                        <option value="personal">Personal</option>
+                    </select><br><br>
+                    <label for="inquiry">Inquiry Type *</label><br>
+                    <textarea name="inquiry" id="inquiry" cols="42" rows="1" required placeholder="e.g. Tailored Plan"></textarea><br><br>
+                    <label for="comment">Comments</label><br>
+                    <textarea name="comment" id="contact-comment" cols="42" rows="10" required placeholder="Enter additional comments here"></textarea><br><br>
+                    <div class="agreement">
+                        <label for="agreement"></label><br>
+                        <input type="checkbox" name="agreement" placeholder="✓">
+                        <p class="small-medium">I acknowledge and agree that the personal information collected via this webform is subject to InterDish, LLC's <a href="/html/privacypolicy.html"><span class="highlight">Privacy Policy</span></a></p>
+                    </div>
+                    <button class="button1" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="other-info">
+                
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-info">
@@ -46,7 +93,7 @@
                 </ul>
             </div>
         </div>
-        <p class="copyright">Copyright © 2024 InterDish, Inc. A subsidiary of InterSpace Communications, LLC</p>
+        <p class="copyright very-small text-center">Copyright © 2024 InterDish, Inc. A subsidiary of InterSpace Communications, LLC</p>
     </footer>
     <script src="/js/script.js"></script>
 </body>
