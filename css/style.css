@@ -392,7 +392,7 @@ textarea{
 }
 #business-offer{
     padding: 5rem 0 7rem;
-    display: flex;
+    display: none;
     flex-flow: column;
     align-items: center;
 }
