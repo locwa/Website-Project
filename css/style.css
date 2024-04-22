@@ -411,6 +411,14 @@ textarea{
     justify-content: center;
     gap: 1rem;
 }
+#empty{
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+}
+#empty p{
+    margin: auto;
+}
 #personal-offer{
     padding: 2rem 0 7rem;
     display: none;
