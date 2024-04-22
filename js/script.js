@@ -9,6 +9,7 @@ window.addEventListener('scroll', () => {
     if(scrollPosition >= 423){
         moveInterdishProgress();
     }
+
     });
 
 // Reviews

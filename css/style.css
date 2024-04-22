@@ -245,7 +245,11 @@ footer{
     font-size: 1px;
 }
 .feature2{
-    background-color: #000;;
+        /* Original photo here: https://www.pexels.com/photo/black-and-white-striped-textile-2387532/. License on Pexels photos here https://www.pexels.com/license/ */
+    background-image: url(/assets/png/streaks.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
     height: 20.313rem;
     padding: 3.125rem;
 }   
