@@ -3,14 +3,12 @@ let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     nav.style.backgroundColor = 'rgba(3, 2, 10, '+ (scrollPosition / 70) + ')';
-    if (scrollPosition >= 340){
+    if (scrollPosition >= 320){
         moveCompetitorProgress();
     }
-    if(scrollPosition >= 470){
+    if(scrollPosition >= 423){
         moveInterdishProgress();
     }
-    console.log(scrollPosition)
-
     });
 
 // Reviews
