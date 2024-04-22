@@ -314,12 +314,12 @@ footer{
     width: 90%;
 }
 .services{
-    padding-left: 5rem;
+    padding-left: 3rem;
     display: flex;
     flex-wrap: wrap;
 }
 .offerings{
-    max-width: 18rem;
+    max-width: 20rem;
     margin: 2rem;
     background-color: #181b3f;
     padding: 2rem;
