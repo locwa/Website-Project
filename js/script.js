@@ -117,11 +117,13 @@ let businessPlansButton = document.getElementById('business-button');
 function showPersonalPlans () {
     document.getElementById('personal-offer').style.display = 'block';
     document.getElementById('business-offer').style.display = 'none';
+    document.getElementById('empty').style.display = 'none';
 }
 
 function showBusinessOffer () {
     document.getElementById('personal-offer').style.display = 'none';
-    document.getElementById('business-offer').style.display = 'flex';   
+    document.getElementById('business-offer').style.display = 'flex'; 
+    document.getElementById('empty').style.display = 'none';  
 }
 
 // Progress Bar Functions
