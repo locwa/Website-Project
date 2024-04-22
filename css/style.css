@@ -193,7 +193,7 @@ footer{
     column-gap: 37.5rem;
     height: 90%;
     /* Original photo here: https://www.pexels.com/photo/snowy-trees-by-green-house-in-finland-18711720/. License on Pexels photos here https://www.pexels.com/license/ */
-    background-image: url(../assets/png/house.jpeg);
+    background-image: url(../assets/png/house.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: center;
