@@ -7,10 +7,11 @@
 A sample website design about a satellite internet service provider. This website is created for the Chingu Voyage 49.
 
 Live Link: https://locwa.github.io/Website-Project/
+
 ======
 
 ## Features
-------
+======
 
 * Background color of navbar changes with scroll
 * Shows plans for personal and business users
