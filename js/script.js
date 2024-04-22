@@ -14,6 +14,7 @@ window.addEventListener('scroll', () => {
     });
 
 // Reviews
+// Used js for the reviews for because we are only allowed to use HTML, CSS, and JS.
 const reviews = [
     {
         "name": "Daniel S.",
