@@ -193,7 +193,7 @@ footer{
     column-gap: 37.5rem;
     height: 90%;
     /* Original photo here: https://www.pexels.com/photo/snowy-trees-by-green-house-in-finland-18711720/. License on Pexels photos here https://www.pexels.com/license/ */
-    background-image: url(./assets/png/house.jpeg);
+    background-image: url(../assets/png/house.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -246,7 +246,7 @@ footer{
 }
 .feature2{
     /* Original photo here: https://www.pexels.com/photo/black-and-white-striped-textile-2387532/       . License on Pexels photos here https://www.pexels.com/license/ */
-    background-image: url(/assets/png/streaks.jpg);
+    background-image: url(../assets/png/streaks.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -292,7 +292,7 @@ footer{
 
 .about-bg{
     /* Original photo here: https://images-assets.nasa.gov/image/iss043e000030/iss043e000030~orig.jpg. NASA photos are free to use according to https://www.nasa.gov/nasa-brand-center/images-and-media/ */ 
-    background-image: url(/assets/png/earth.jpg);
+    background-image: url(../assets/png/earth.jpg);
 }
 .about-slogan{
     margin: 2rem 0;
@@ -330,7 +330,7 @@ footer{
 
 .history-bg{
     /* Original photo here: https://www.pexels.com/photo/aerial-view-clouds-nasa-satellite-23781/. Pexels photos are free to use according to https://www.pexels.com/license/ */ 
-    background-image: url(/assets/png/satellite.jpg);
+    background-image: url(../assets/png/satellite.jpg);
     background-position: 50% 45%;
 }
 
@@ -397,7 +397,7 @@ textarea{
     padding: 5rem;
     max-height: 20rem;
      /* Original photo here: https://www.pexels.com/photo/body-of-water-near-city-buildings-421927/. Pexels photos are free to use according to https://www.pexels.com/license/ */
-    background-image: url(/assets/png/skyline.jpg);
+    background-image: url(../assets/png/skyline.jpg);
     background-position: 50% 40%;
 }
 .product-bg h1{
