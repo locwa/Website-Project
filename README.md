@@ -30,6 +30,7 @@ Live version: https://locwa.github.io/Website-Project/
 
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 * [Prettier](https://prettier.io/)
+* [GitHub](https://github.com/)
 * [GitHub Codespaces](https://github.com/features/codespaces)
 * [GitHub Pages](https://pages.github.com/)
 * [Google Chrome](https://www.google.com/intl/en_ph/chrome/)
