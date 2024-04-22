@@ -303,7 +303,7 @@ footer{
     align-items: center;
 }
 .initial-promise{
-    flex-basis: 90rem;
+    flex-basis: 70rem;
 }
 .title{
     padding: 15rem 0;
@@ -314,7 +314,7 @@ footer{
     width: 90%;
 }
 .services{
-    padding-left: 3rem;
+    padding-left: 5rem;
     display: flex;
     flex-wrap: wrap;
 }
