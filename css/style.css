@@ -2,6 +2,7 @@ html{
     background-color: #06061a;
     color: white;
     font-family: 'Encode Sans';
+    font-size: 17px;
 }   
 body{
     margin: 0;
@@ -145,7 +146,7 @@ a:hover{
     display: flex;
     width: 37.432rem;   
     height: 1.188rem;
-    padding: 0 4rem;
+    padding: 0 5rem;
     justify-content: flex-end;
     align-items: center;
     gap: 3.125rem;
@@ -153,6 +154,7 @@ a:hover{
 }
 .hamburger-bars{
     display: none;
+    
 }
 .bar1, .bar2, .bar3{
     background-color: white;
@@ -162,7 +164,7 @@ a:hover{
     border-radius: 1rem;
 }
 /* Responsive Selectors for navbar */
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 960px) {
     #nav{
         min-width: 90%;
         max-width: 93%;
@@ -173,6 +175,7 @@ a:hover{
     .hamburger-bars{
         display: flex;
         flex-direction: column;
+        margin-right: 2vw;
     }
 }
 @media screen and (max-width: 450px) {
