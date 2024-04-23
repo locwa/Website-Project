@@ -181,7 +181,7 @@ a:hover{
     #nav{
         display: flex;
         min-width: 80%;
-        max-width: 85%;
+        max-width: 90%;
     }
     .hamburger-bars{
         display: flex;
