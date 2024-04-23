@@ -163,32 +163,6 @@ a:hover{
     margin: 0.13rem 0;
     border-radius: 1rem;
 }
-/* Responsive Selectors for navbar */
-@media screen and (max-width: 960px) {
-    #nav{
-        min-width: 90%;
-        max-width: 93%;
-    }
-    #nav ul{
-        display: none;
-    }
-    .hamburger-bars{
-        display: flex;
-        flex-direction: column;
-        margin-right: 2vw;
-    }
-}
-@media screen and (max-width: 450px) {
-    #nav{
-        display: flex;
-        min-width: 80%;
-        max-width: 90%;
-    }
-    .hamburger-bars{
-        display: flex;
-        flex-direction: column;
-    }    
-}
 
 /* footer */
 
@@ -229,7 +203,7 @@ footer{
     display: flex;
     justify-content: flex-start;
     column-gap: 37.5rem;
-    height: 90%;
+    height: 93vh;
     /* Original photo here: https://www.pexels.com/photo/snowy-trees-by-green-house-in-finland-18711720/. License on Pexels photos here https://www.pexels.com/license/ */
     background-image: url(../assets/png/house.jpg);
     background-size:cover;
@@ -238,8 +212,8 @@ footer{
 }
 .slogan {
     margin-left: 2.5rem;
-    max-width: 29.375rem;
-    height: 25rem;
+    width: 35vw;
+    height: 20rem;
     padding: 7.813rem 0;
     text-align: left;
 }
@@ -487,4 +461,51 @@ textarea{
 
 .slavery-bg{
     background-color: #2c1371;
+}
+
+/* Responsive Selectors */
+@media screen and (max-width: 1024px) {
+    /* Navbar */
+
+    #nav{
+        min-width: 90%;
+        max-width: 93%;
+    }
+    #nav ul{
+        display: none;
+    }
+    .hamburger-bars{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    /* Navbar */
+    
+    #nav{
+        display: flex;
+        min-width: 80%;
+        max-width: 90%;
+    }
+    .hamburger-bars{
+        display: flex;
+        flex-direction: column;
+    }    
+
+    /* index.html */
+
+    .hero{
+        min-width: 165vw;
+    }
+    .slogan{
+        width: 65vw
+    }
+    
 }
