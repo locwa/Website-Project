@@ -203,7 +203,7 @@ footer{
     display: flex;
     justify-content: flex-start;
     column-gap: 37.5rem;
-    height: 93vh;
+    height: 39rem;
     /* Original photo here: https://www.pexels.com/photo/snowy-trees-by-green-house-in-finland-18711720/. License on Pexels photos here https://www.pexels.com/license/ */
     background-image: url(../assets/png/house.jpg);
     background-size:cover;
@@ -214,7 +214,7 @@ footer{
     margin-left: 2.5rem;
     width: 35vw;
     height: 20rem;
-    padding: 7.813rem 0;
+    padding: 7rem 0 8rem;
     text-align: left;
 }
 .feature1{
@@ -464,6 +464,13 @@ textarea{
 }
 
 /* Responsive Selectors */
+
+@media screen and (min-width: 1200px) {
+    .hero{
+        height: 80vh;
+    }
+    
+}
 @media screen and (max-width: 1024px) {
     /* Navbar */
 
@@ -472,19 +479,45 @@ textarea{
         max-width: 93%;
     }
     #nav ul{
-        display: none;
+        padding: 0 1.5rem;
+        gap: 1.5rem;
     }
-    .hamburger-bars{
-        display: flex;
-        flex-direction: column;
-        margin-right: 2vw;
+
+    /* index.html */
+
+    .slogan{
+        width: 75vw;
     }
+    
 }
 @media screen and (max-width: 900px) {
+        /* Navbar */
+
+        #nav ul{
+            display: none;
+            
+        }
+        .hamburger-bars{
+            display: flex;
+            flex-direction: column;
+            margin-right: 2svw;
+        }
+
+        /* index.html */
+
+        .slogan{
+            width: 30vw;
+        }
     
 }
 @media screen and (max-width: 768px) {
-    
+    /* index.html */
+
+    .hero{
+        width: 125vw;
+        height: 50rem;
+    }
+
 }
 @media screen and (max-width: 480px) {
     /* Navbar */
@@ -503,9 +536,18 @@ textarea{
 
     .hero{
         min-width: 165vw;
+        height: 55rem;
     }
     .slogan{
         width: 65vw
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    /* index.html */
+
+    .hero{
+        min-width: 192vw;
     }
     
 }
