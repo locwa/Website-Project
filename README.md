@@ -2,7 +2,7 @@
 
 ## Overview
 
-A sample website design about a satellite internet service provider. This website is created for the Chingu Voyage 49.
+A sample website design about a satellite internet service provider. This website is created for the Chingu Voyage 49 and as a final project for a class.
 
 Live Link: https://locwa.github.io/Website-Project/
 
