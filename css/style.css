@@ -465,12 +465,6 @@ textarea{
 
 /* Responsive Selectors */
 
-@media screen and (min-width: 1200px) {
-    .hero{
-        height: 80vh;
-    }
-    
-}
 @media screen and (max-width: 1024px) {
     /* Navbar */
 
