@@ -342,12 +342,12 @@ main{
     margin: 2rem 0;
 }
 .about-landing{
-    display: inline;
+    display: flex;
     margin: 4rem 3rem;
     align-items: center;
 }
 .initial-promise{
-    flex-basis: 55rem;
+    flex-basis: 40rem;
 }
 .title{
     padding: 15rem 0;
