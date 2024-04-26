@@ -156,6 +156,9 @@ a:hover{
     display: none;
     
 }
+.hamburger-bars:hover{
+    cursor: pointer;
+}
 .bar1, .bar2, .bar3{
     background-color: white;
     height: 0.25rem;
@@ -163,9 +166,24 @@ a:hover{
     margin: 0.13rem 0;
     border-radius: 1rem;
 }
+.bar1:hover, .bar2:hover, .bar3:hover{
+    background-color: rgb(148, 144, 144);
+}
 .selection-menu{
-    display: none;
     background-color: #181b3f;
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2rem;
+    z-index: 0;
+}
+.selection-menu ul{
+    list-style-type: none;
+    padding: 6rem 2rem;
+}
+.selection-menu li{
+    padding-bottom: 1rem;
 }
 
 /* footer */
@@ -491,21 +509,6 @@ textarea{
         display: flex;
         flex-direction: column;
         margin-right: 60px;
-    }
-    .selection-menu{
-        display: nones;
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        font-size: 2rem;
-        z-index: 0;
-    }
-    .selection-menu ul{
-        list-style-type: none;
-        padding: 6rem 2rem;
-    }
-    .selection-menu li{
-        padding-bottom: 1rem;
     }
 }
 @media only screen and (min-width: 1010px) and (max-width: 1370px){

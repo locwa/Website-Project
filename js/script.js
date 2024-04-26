@@ -162,3 +162,28 @@ function moveInterdishProgress() {
         }
     }
 }
+
+// Selection menu
+
+const selectionMenu = document.getElementById('selection-menu');
+const hamburgerBar1 = document.getElementById('bar1');
+const hamburgerBar2 = document.getElementById('bar2');
+const hamburgerBar3 = document.getElementById('bar3');
+let showCheck = 0;
+
+function makeBarsDark(){
+    hamburgerBar1.style.backgroundColor = 'rgb(148, 144, 144)';
+    hamburgerBar2.style.backgroundColor = 'rgb(148, 144, 144)';
+    hamburgerBar3.style.backgroundColor = 'rgb(148, 144, 144)';
+}
+
+function showSelectionMenu() {
+    if (showCheck === 0){
+        selectionMenu.style.display = 'block';
+        showCheck = 1;
+    } else {
+        selectionMenu.style.display = 'none';
+        showCheck = 0;
+    }
+    
+}
