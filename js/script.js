@@ -177,6 +177,12 @@ function makeBarsDark(){
     hamburgerBar3.style.backgroundColor = 'rgb(148, 144, 144)';
 }
 
+function makeBarsLight(){
+    hamburgerBar1.style.backgroundColor = 'white';
+    hamburgerBar2.style.backgroundColor = 'white';
+    hamburgerBar3.style.backgroundColor = 'white';
+}
+
 function showSelectionMenu() {
     if (showCheck === 0){
         selectionMenu.style.display = 'block';
