@@ -12,6 +12,40 @@ window.addEventListener('scroll', () => {
 
     });
 
+// Selection menu
+
+const selectionMenu = document.getElementById('selection-menu');
+const hamburgerBar1 = document.getElementById('bar1');
+const hamburgerBar2 = document.getElementById('bar2');
+const hamburgerBar3 = document.getElementById('bar3');
+let showCheck = 0;
+
+function makeBarsDark(){
+    hamburgerBar1.style.backgroundColor = 'rgb(148, 144, 144)';
+    hamburgerBar2.style.backgroundColor = 'rgb(148, 144, 144)';
+    hamburgerBar3.style.backgroundColor = 'rgb(148, 144, 144)';
+}
+
+function makeBarsLight(){
+    hamburgerBar1.style.backgroundColor = 'white';
+    hamburgerBar2.style.backgroundColor = 'white';
+    hamburgerBar3.style.backgroundColor = 'white';
+}
+
+function showSelectionMenu() {
+    hamburgerBar1.style.backgroundColor = 'white';
+    hamburgerBar2.style.backgroundColor = 'white';
+    hamburgerBar3.style.backgroundColor = 'white';
+    if (showCheck === 0){
+        selectionMenu.style.display = 'block';
+        showCheck = 1;
+    } else {
+        selectionMenu.style.display = 'none';
+        showCheck = 0;
+    }
+    
+}
+
 // Reviews
 // Used js for the reviews for because we are only allowed to use HTML, CSS, and JS.
 const reviews = [
@@ -163,36 +197,3 @@ function moveInterdishProgress() {
     }
 }
 
-// Selection menu
-
-const selectionMenu = document.getElementById('selection-menu');
-const hamburgerBar1 = document.getElementById('bar1');
-const hamburgerBar2 = document.getElementById('bar2');
-const hamburgerBar3 = document.getElementById('bar3');
-let showCheck = 0;
-
-function makeBarsDark(){
-    hamburgerBar1.style.backgroundColor = 'rgb(148, 144, 144)';
-    hamburgerBar2.style.backgroundColor = 'rgb(148, 144, 144)';
-    hamburgerBar3.style.backgroundColor = 'rgb(148, 144, 144)';
-}
-
-function makeBarsLight(){
-    hamburgerBar1.style.backgroundColor = 'white';
-    hamburgerBar2.style.backgroundColor = 'white';
-    hamburgerBar3.style.backgroundColor = 'white';
-}
-
-function showSelectionMenu() {
-    hamburgerBar1.style.backgroundColor = 'white';
-    hamburgerBar2.style.backgroundColor = 'white';
-    hamburgerBar3.style.backgroundColor = 'white';
-    if (showCheck === 0){
-        selectionMenu.style.display = 'block';
-        showCheck = 1;
-    } else {
-        selectionMenu.style.display = 'none';
-        showCheck = 0;
-    }
-    
-}

@@ -628,7 +628,7 @@ textarea{
         padding: 3rem 0 0.1rem;
     }
     /*nav*/
-    nav{
+    #nav{
         width: 100vw
     }
     /* index.html */
@@ -647,5 +647,18 @@ textarea{
     #profile-picture{
         height: 4rem;
         width: 4rem;
+    }
+    /* aboutus.html */
+    .title{
+        padding: 10rem 0;
+    }
+    .about-landing{
+        flex-wrap: wrap;
+    }
+    .services{
+        padding-left: 0;
+    }
+    .offerings{
+        margin: 1rem 0 1rem 0;
     }
 }
