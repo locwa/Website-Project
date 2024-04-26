@@ -164,7 +164,8 @@ a:hover{
     border-radius: 1rem;
 }
 .selection-menu{
-    display:none;
+    display: none;
+    background-color: #181b3f;
 }
 
 /* footer */
@@ -323,7 +324,7 @@ main{
     margin: 2rem 0;
 }
 .about-landing{
-    display: flex;
+    display: inline;
     margin: 4rem 3rem;
     align-items: center;
 }
@@ -480,6 +481,9 @@ textarea{
 
 /* navbar responsiveness */
 @media only screen and (max-width: 960px) {
+    #nav{
+        z-index: 1;
+    }
     #nav ul{
         display: none;
     }
@@ -488,7 +492,21 @@ textarea{
         flex-direction: column;
         margin-right: 60px;
     }
-    
+    .selection-menu{
+        display: nones;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        font-size: 2rem;
+        z-index: 0;
+    }
+    .selection-menu ul{
+        list-style-type: none;
+        padding: 6rem 2rem;
+    }
+    .selection-menu li{
+        padding-bottom: 1rem;
+    }
 }
 @media only screen and (min-width: 1010px) and (max-width: 1370px){
     /* Footer */
