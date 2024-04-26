@@ -184,6 +184,9 @@ function makeBarsLight(){
 }
 
 function showSelectionMenu() {
+    hamburgerBar1.style.backgroundColor = 'white';
+    hamburgerBar2.style.backgroundColor = 'white';
+    hamburgerBar3.style.backgroundColor = 'white';
     if (showCheck === 0){
         selectionMenu.style.display = 'block';
         showCheck = 1;
