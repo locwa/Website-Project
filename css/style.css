@@ -177,7 +177,7 @@ footer{
 }
 .logo-and-address{
     padding: 1.875rem;
-    max-width: 14.063rem;
+    max-width: 1.063rem;
 }
 .logo-footer{
     padding: 0;
@@ -196,6 +196,12 @@ footer{
 .copyright{
     margin: 0;
 }
+
+/* Layout selectors for main */
+main{
+    width: 100vw;
+}
+
 
 /* Layout Selectors for index.html*/
 
