@@ -594,7 +594,6 @@ textarea{
         /* <p> */
         font-size: 4vw;
     }
-    /*fix nav, feature 1 and footer for mobile*/
     /* footer */
     footer{
         height: 19rem;
@@ -641,5 +640,9 @@ textarea{
     }
     .competitor-speed, .interdish-speed{
         display: none;
+    }
+    #profile-picture{
+        height: 4rem;
+        width: 4rem;
     }
 }
