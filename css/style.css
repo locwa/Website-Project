@@ -681,6 +681,9 @@ textarea{
     .contact-bg h1 {
         padding: 10rem 2.1rem 1rem;
     }
+    .contact-bg h3{
+        display: none;
+    }
     .info-form{
         padding: 5rem 2rem;
     }
