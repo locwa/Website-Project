@@ -598,6 +598,13 @@ textarea{
         /* <p> */
         font-size: 4vw;
     }
+        /* html layout elements */
+        .titlehead{
+            height: 23rem;
+        }
+        .textblock{
+            padding: 2rem 2rem 2rem;
+        }
     /* footer */
     footer{
         height: 19rem;
@@ -662,10 +669,6 @@ textarea{
     .offerings{
         margin: 1rem 0 1rem 0;
     }
-    /* companyhistory.html */
-    .titlehead{
-        height: 23rem;
-    }
     /* contactus.html */
     .contact-bg h1 {
         padding: 10rem 2.1rem 1rem;
@@ -684,7 +687,7 @@ textarea{
     #inquiry{
         width: 19em;
     }
-    #contact-comment{
+    #contact-   comment{
         width: 19em;
     }
 }
