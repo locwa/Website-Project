@@ -38,9 +38,11 @@ function showSelectionMenu() {
     hamburgerBar3.style.backgroundColor = 'white';
     if (showCheck === 0){
         selectionMenu.style.display = 'block';
+        window.onscroll = function () {window.scrollTo(0,0);}
         showCheck = 1;
     } else {
         selectionMenu.style.display = 'none';
+        main.style.display = 'block';
         showCheck = 0;
     }
     
