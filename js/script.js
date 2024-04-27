@@ -1,3 +1,6 @@
+// checks the dev environment
+const env = 'dev';
+
 // navbar color change and progress bar
 let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
