@@ -637,6 +637,10 @@ textarea{
     #nav{
         width: 100vw
     }
+    /* main */
+    main{
+        max-width: 100vw;
+    }
     /* index.html */
     .hero{
         height: 32rem;
