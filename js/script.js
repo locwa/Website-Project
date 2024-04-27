@@ -33,16 +33,20 @@ function makeBarsLight(){
 }
 
 function showSelectionMenu() {
+    const lastScrollY = window.scrollY;
     hamburgerBar1.style.backgroundColor = 'white';
     hamburgerBar2.style.backgroundColor = 'white';
     hamburgerBar3.style.backgroundColor = 'white';
     if (showCheck === 0){
         selectionMenu.style.display = 'block';
-        window.onscroll = function () {window.scrollTo(0,0);}
+        window.onscroll = function () {window.scrollTo(0, 0);}
+        nav.style.backgroundColor = 'rgba(3, 2, 10, 0)';
         showCheck = 1;
     } else {
         selectionMenu.style.display = 'none';
-        main.style.display = 'block';
+        window.onscroll = function () {}
+        window.scrollTo(0, lastScrollY);
+        nav.style.backgroundColor = 'rgba(3, 2, 10, '+ (lastScrollY / 70) + ')';
         showCheck = 0;
     }
     
