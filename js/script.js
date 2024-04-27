@@ -149,7 +149,7 @@ const personalPlansButton = document.getElementById('personal-button');
 let businessPlansButton = document.getElementById('business-button');
 
 function showPersonalPlans () {
-    document.getElementById('personal-offer').style.display = 'block';
+    document.getElementById('personal-offer').style.display = 'flex';
     document.getElementById('business-offer').style.display = 'none';
     document.getElementById('empty').style.display = 'none';
 }

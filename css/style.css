@@ -440,7 +440,7 @@ textarea{
 
 .product-bg{
     padding: 5rem;
-    max-height: 20rem;
+    height: 20rem;
      /* Original photo here: https://www.pexels.com/photo/body-of-water-near-city-buildings-421927/. Pexels photos are free to use according to https://www.pexels.com/license/ */
     background-image: url(../assets/png/skyline.jpg);
     background-position: 50% 40%;
@@ -457,7 +457,7 @@ textarea{
     gap: 1rem;
 }
 #empty{
-    min-height: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
 }
@@ -467,9 +467,13 @@ textarea{
 #personal-offer{
     padding: 2rem 0 7rem;
     display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .plans{
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     align-items: center;
     justify-content: center;
@@ -478,7 +482,7 @@ textarea{
 .offers{
     padding: 2rem;
     min-height: 23rem;
-    min-width: 16rem;
+    width: 16rem;
     background-color: rgb(50, 35, 110);
 }
 .offers .medium{
@@ -697,5 +701,34 @@ textarea{
     }
     #contact-comment{
         width: 19em;
+    }
+    /* products.html */
+    .product-bg{
+        padding: 3.5rem;  
+        height: 23rem;
+        padding-bottom: 2.5rem;
+    }
+    .product-bg h1{
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+    }
+    .product-type-selectors{
+        padding-top: 0;
+    }
+    #empty{
+        height: 5rem;
+    }
+    .promo-text{
+        margin: 0 0.4rem;
+    }
+    #personal-offer{
+        display: flex;
+    }
+    .offers{
+        width: 11rem;
+    }
+    #business-offer p{
+        margin: 0 1rem;
+        padding-bottom: 2rem;
     }
 }
