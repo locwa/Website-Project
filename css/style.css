@@ -400,7 +400,7 @@ main{
     max-width: 27rem;
 }
 input[type=text]{
-    min-width: 27rem;
+    width: 27rem;
     height: 1.5rem;
     margin-top: 0.4rem;
 }
@@ -414,6 +414,7 @@ select{
 }
 textarea{
     margin-top: 0.4rem;
+    width: 42em;
     resize: none;
     font-family: 'Encode Sans';
 }
@@ -660,5 +661,30 @@ textarea{
     }
     .offerings{
         margin: 1rem 0 1rem 0;
+    }
+    /* companyhistory.html */
+    .titlehead{
+        height: 23rem;
+    }
+    /* contactus.html */
+    .contact-bg h1 {
+        padding: 10rem 2.1rem 1rem;
+    }
+    h3{
+        display: none;
+    }
+    .info-form{
+        padding: 5rem 2rem;
+    }
+    input[type=text]{
+        width: 15rem;
+        height: 1.5rem;
+        margin-top: 0.4rem;
+    }
+    #inquiry{
+        width: 19em;
+    }
+    #contact-comment{
+        width: 19em;
     }
 }
