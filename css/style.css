@@ -408,7 +408,7 @@ select{
 }
 textarea{
     margin-top: 0.4rem;
-    width: 42em;
+    width: 35em;
     resize: none;
     font-family: 'Encode Sans';
 }
