@@ -1,5 +1,5 @@
 // checks the dev environment
-const env = 'dev';
+const env = 'main';
 
 // navbar color change and progress bar
 let nav = document.getElementById('nav')
