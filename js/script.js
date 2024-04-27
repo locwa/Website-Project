@@ -1,6 +1,3 @@
-// checks the dev environment
-const env = 'main';
-
 // navbar color change and progress bar
 let nav = document.getElementById('nav')
 window.addEventListener('scroll', () => {
@@ -206,3 +203,5 @@ function moveInterdishProgress() {
     }
 }
 
+// clears errors
+console.clear();
