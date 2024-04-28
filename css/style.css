@@ -502,7 +502,7 @@ textarea{
 }
 .product-type-selectors{
     padding: auto;
-    padding-top: 2rem;
+    padding-top: 1vw;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -569,8 +569,18 @@ textarea{
 }
 @media only screen and (min-width: 1010px) and (max-width: 1370px){
     /* Footer */
+    .footer-info{
+        height: 25rem;
+        padding-bottom: 10rem;
+    }
     .logo-and-address{
         width: 25vw;
+    }
+    .navbar-divider{
+        display: none;
+    }
+    .newsletter{
+        display: none;
     }
     
     /* index.html */
