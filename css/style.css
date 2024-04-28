@@ -795,11 +795,14 @@ textarea{
     .dividing-line-right{
         display: none;
     }
+    .mobile-divider{
+        padding: 2rem 0;
+    }
     .info-form{
         padding: 5rem 1rem;
     }
     .other-info{
-        padding: 5rem 1rem;
+        padding: 1rem 1rem;
     }
     input[type=text]{
         width: 15rem;
