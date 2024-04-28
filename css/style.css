@@ -377,7 +377,7 @@ footer{
     align-items: center;
 }
 .initial-promise{
-    flex-basis: 40rem;
+    flex-basis: 40vw;
 }
 .title{
     padding: 15rem 0;
@@ -625,6 +625,12 @@ textarea{
      .logo-and-address{
         width: 33vw;
     }
+    .navbar-divider{
+        display: none;
+    }
+    .newsletter{
+        display: none;
+    }
 
     /* index.html */
 
@@ -640,6 +646,15 @@ textarea{
     }
     .interdish-speed{
         display: none;
+    }
+
+    /* aboutus.html */
+    .about-landing{
+        flex-basis: 1rem;
+        margin: 4rem 1.4rem;
+    }
+    .services{
+        padding-left: 1rem;
     }
 
     /* contactus.html */
@@ -675,7 +690,7 @@ textarea{
     .logo-and-address{
         display: none;
     }
-    .newsletter-title{
+    .navbar-divider{
         display: none;
     }
     .newsletter{
@@ -690,17 +705,16 @@ textarea{
     }
     .footer-nav-mobile{
         display: block;
-        padding: 0 0 1rem;
+        padding: 2rem 0 1rem;
     }
     .footer-nav-mobile ul{
         list-style-type: none;
-        margin: 0;
     }
     .footer-nav-mobile li{
         padding: 0.15rem 0;
     }
     .copyright{
-        padding: 1.5rem 0 0.1rem;
+        padding: 1rem 0 0.1rem;
     }
     /*nav*/
     #nav{
