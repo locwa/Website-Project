@@ -232,6 +232,25 @@ footer{
 .footer-nav li{
     padding: 0.313rem;
 }
+.navbar-divider{
+    margin: 4rem 0;
+    border-color: #3e3e3e;
+}
+.newsletter{
+    padding: 2rem 3rem;
+}
+.newsletter-title{
+    margin-bottom: 1rem;
+}
+#newsletter-email{
+    width: 25em;
+}
+.small-button{
+    margin-top: 0;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: 6rem;
+}
 .footer-nav-mobile{
     display: none;
 }
