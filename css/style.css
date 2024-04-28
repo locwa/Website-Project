@@ -381,6 +381,11 @@ footer{
     border-radius: 1rem;
 }
 
+/* Layout selectors for careers.html */
+.careers-bg{
+    background-color: #0006bd;
+}
+
 /* Layout seletors for companyhistory.html */
 
 .history-bg{
