@@ -123,6 +123,23 @@ a:hover{
     font-size: 0.625rem;
 }
 
+/* dividing lines */
+
+.dividing-line-right{
+    border-width: 0.01px;
+    border-right: rgb(128, 136, 167);
+    border-style: solid;
+    color: rgba(0, 0, 0, 0);
+    margin: 10rem 0;
+}
+.dividing-line-bottom{
+    border-width: 0.01px;
+    border-bottom: rgb(128, 136, 167);
+    border-style: solid;
+    color: rgba(0, 0, 0, 0);
+    margin: 0 0.5rem;
+}
+
 /* navbar */
 
 #nav{
@@ -385,6 +402,7 @@ footer{
 .contact-landing{
     background-color: #0e0e48;
     margin: 0;
+    display: flex;
 }
 .info-form{
     padding: 5rem 5rem;
@@ -412,6 +430,21 @@ textarea{
     resize: none;
     font-family: 'Encode Sans';
 }
+.other-info{
+    padding: 5rem 5rem;
+}
+.social-pages{
+    padding-bottom: 2rem;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-right: 1rem;
+}
+.careers{
+    padding-bottom: 2rem;
+}
+
 /* Layout Selectors for privacypolicy.html */
 
 .privacy-bg{
@@ -582,6 +615,11 @@ textarea{
         display: none;
     }
     .interdish-speed{
+        display: none;
+    }
+
+    /* contactus.html */
+    .dividing-line{
         display: none;
     }
 }
