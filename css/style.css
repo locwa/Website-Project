@@ -569,10 +569,6 @@ textarea{
 }
 @media only screen and (min-width: 1010px) and (max-width: 1370px){
     /* Footer */
-    .footer-info{
-        height: 25rem;
-        padding-bottom: 10rem;
-    }
     .logo-and-address{
         width: 25vw;
     }
@@ -633,7 +629,7 @@ textarea{
         height: 24rem;
      }
      .logo-and-address{
-        width: 33vw;
+        display: none;
     }
     .navbar-divider{
         display: none;
@@ -670,6 +666,20 @@ textarea{
     /* contactus.html */
     .dividing-line{
         display: none;
+    }
+
+    /* products.html */
+    .contact-landing{
+        display: block;
+    }
+    .dividing-line-right{
+        display: none;
+    }
+    .info-form{
+        padding: 5rem 3rem;
+    }
+    .other-info{
+        padding: 5rem 2rem;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 529px){
@@ -779,8 +789,17 @@ textarea{
     .contact-bg h3{
         display: none;
     }
+    .contact-landing{
+        flex-wrap: wrap;
+    }
+    .dividing-line-right{
+        display: none;
+    }
     .info-form{
-        padding: 5rem 2rem;
+        padding: 5rem 1rem;
+    }
+    .other-info{
+        padding: 5rem 1rem;
     }
     input[type=text]{
         width: 15rem;
