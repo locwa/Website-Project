@@ -154,7 +154,6 @@ a:hover{
 }
 .logo{
     font-family: 'nevis', sans-serif;
-    margin-top: 2.7rem;
     letter-spacing: 0.098rem;
     font-size: 2.3rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -442,7 +441,7 @@ textarea{
 .social-pages{
     padding-bottom: 2rem;
 }
-.logo{
+.social-logo{
     height: 60px;
     width: 60px;
     margin-right: 1rem;
