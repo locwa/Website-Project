@@ -457,6 +457,9 @@ textarea{
 .other-info{
     padding: 5rem 5rem;
 }
+.contact-divider{
+    display: none;
+}
 .social-pages{
     padding-bottom: 2rem;
 }
@@ -675,6 +678,9 @@ textarea{
     .dividing-line-right{
         display: none;
     }
+    .contact-divider{
+        display: block;
+    }
     .info-form{
         padding: 5rem 3rem;
     }
@@ -794,6 +800,9 @@ textarea{
     }
     .dividing-line-right{
         display: none;
+    }
+    .contact-divider{
+        display: block;
     }
     .mobile-divider{
         padding: 2rem 0;
