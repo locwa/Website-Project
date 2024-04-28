@@ -675,6 +675,12 @@ textarea{
     .logo-and-address{
         display: none;
     }
+    .newsletter-title{
+        display: none;
+    }
+    .newsletter{
+        display: none;
+    }
     .footer-nav{
         display: none;
     }
@@ -684,16 +690,17 @@ textarea{
     }
     .footer-nav-mobile{
         display: block;
-        padding: 2rem 0 1rem;
+        padding: 0 0 1rem;
     }
     .footer-nav-mobile ul{
         list-style-type: none;
+        margin: 0;
     }
     .footer-nav-mobile li{
         padding: 0.15rem 0;
     }
     .copyright{
-        padding: 3rem 0 0.1rem;
+        padding: 1.5rem 0 0.1rem;
     }
     /*nav*/
     #nav{
