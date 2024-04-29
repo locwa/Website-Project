@@ -601,6 +601,12 @@ textarea{
      .logo-and-address{
         width: 28vw;
     }
+    .navbar-divider{
+        display: none;
+    }
+    .newsletter{
+        display: none;
+    }
 
     /* index.html */
     .hero{
